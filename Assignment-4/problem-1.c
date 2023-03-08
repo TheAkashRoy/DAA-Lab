@@ -41,9 +41,9 @@ int peakZero(){
     float i=1;
     while (gaussianFun(i)>gaussianFun(i-1))
         i=i*2;
-    float s = i/2, e = i;
+    int s = i/2, e = i;
     while (s<e){
-        float mid = s + (e-s)/2;
+        int mid = s + (e-s)/2;
         if(gaussianFun(mid)>gaussianFun(mid-1) && gaussianFun(mid)>gaussianFun(mid+1))
             return mid; 
         if(gaussianFun(mid)>gaussianFun(mid-1)){
