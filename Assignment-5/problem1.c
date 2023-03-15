@@ -31,7 +31,6 @@ void countingSort(int* a, int n, int j, int k){
     }
 }
 
-void 
 
 int main(){
     int* A = generate_array(5, 10, 15);
