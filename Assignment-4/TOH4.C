@@ -15,20 +15,6 @@ void TOH4(int  n ,int  A,int  B, int C, int D){
     printf("\nmove the disk of %d to %d ",A,D);
     return;
     }
-    if(n==2){
-    printf("\nmove the disk of %d to %d ",A,B);
-    printf("\nmove the disk of %d to %d ",A,D);
-    printf("\nmove the disk of %d to %d ",B,D);
-    return;
-    }
-    if(n==3){
-        printf("\nmove the disk of %d to %d ",A,B);
-        printf("\nmove the disk of %d to %d ",A,C);
-        printf("\nmove the disk of %d to %d ",A,D);
-        printf("\nmove the disk of %d to %d ",C,D);
-        printf("\nmove the disk of %d to %d ",B,D);
-    return;
-    }
     
 
     int k = n/2;
