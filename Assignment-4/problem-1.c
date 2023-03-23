@@ -82,7 +82,7 @@ int binarySearch(int arr[], int n, int key){
 int main(){
     int arr[] = {5,10,15,1,2,3};
     printf("%d",findzero());
-    printf("\n%d",peakZero());
+    // printf("\n%d",peakZero());
     
 
     return 0;

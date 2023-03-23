@@ -69,7 +69,7 @@ int main(){
     }
     cout<<endl;
     countingSort(A,5,10,15);
-    BucketSort(A,15,3);
+    //BucketSort(A,15,3);
     for (int i = 0; i < 15; i++) {
         cout<<A[i]<<" ";
     }

@@ -34,7 +34,7 @@ int main()
     printf("Enter the no. of discs: ");
     scanf("%d", &n);
     // TOH3(4,1,2,3);
-    TOH4(n, 1, 2, 3, 4);
+    // TOH4(n, 1, 2, 3, 4);
 
     towerOfHanoi(n, 1, 2, 3, 4);
     return 0;
