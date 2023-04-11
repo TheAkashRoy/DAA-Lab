@@ -2,10 +2,10 @@
 #include<math.h>
 
 int eqn(int x){
-    int eqn1 = pow(x,3) -10*pow(x,2) -15*x -20;
+    int eqn1 = pow(x,3) -10*pow(x,2) -15*x -20-88;
     int eqn2 = pow(x,2)-10;
     int eqn3 = x-10;
-    return eqn3;
+    return eqn1;
 }
 
 float gaussianFun(float x){
@@ -83,6 +83,10 @@ int main(){
     int arr[] = {5,10,15,1,2,3};
     printf("%d",findzero());
     // printf("\n%d",peakZero());
+    // for (int i = 0; i < 15; i++)
+    // {
+    //     printf("\n%d",eqn(i));
+    // }
     
 
     return 0;
