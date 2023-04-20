@@ -81,6 +81,8 @@ void display (queue* ptr)
         printf (" [%d]->%d -", i, ptr->arr [i]);
     printf("\nFRONT = [%d], REAR = [%d]\n", ptr->front, ptr->rear);
 }
+
+
 int isEmpty(queue* qptr){
     if(qptr->front>qptr->rear){
         return 1;
@@ -88,6 +90,8 @@ int isEmpty(queue* qptr){
         return 0;
     }
 }
+
+
 void bfs(int n, int g[n][n], int start){
     queue* qptr = initilize_queue ();
     int visited[n];
