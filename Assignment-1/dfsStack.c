@@ -107,7 +107,7 @@ void dfs(int n , int g[n][n], int start){
         for (int i = 1; i < n; i++){
             if(g[t][i]==1 && visited[i]==0){
                 push(sptr,i);
-                visited[t]=1;
+                visited[i]=1;
             }
         }
         
